@@ -3,7 +3,7 @@ import 'package:flutter_paystack/src/common/utils.dart';
 import 'package:flutter_paystack/src/widgets/animated_widget.dart';
 
 class SuccessfulWidget extends StatefulWidget {
-  final int amount;
+  final num amount;
   final VoidCallback onCountdownComplete;
 
   SuccessfulWidget({required this.amount, required this.onCountdownComplete});
